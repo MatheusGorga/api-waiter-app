@@ -1,5 +1,4 @@
 import { model, Schema } from 'mongoose';
-import { Product } from './Product';
 
 
 
@@ -31,6 +30,4 @@ export const Order = model('Order', new Schema({
       }
     }]
   }
-
-
 }));
